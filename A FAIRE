@@ -1,0 +1,46 @@
+En cours:
+
+
+
+
+
+_______________________________________________________________________________________________________________
+Sujet : Site YourTube
+
+charte graphique (simplifier)
+maquette
+
+
+page de membre:
+    où chaque membre pourra poster deux catégories de fichiers, image ou vidéo (de taille max 5Mo),
+    pourront modifier leurs infos persos et supprimer leur contenu. - 
+
+page d'accueil:
+    accessible même aux non-membres et pourront voir les derniers fichiers déposés,
+    classer les fichiers par membres, par date ou encore par catégorie.
+
+
+Contraintes pour tous : - Rapport journalier, bien indenté et commenté.
+
+Les livrables doivent être déposés sur le serveur dans votre environnement FTP dans un dossier Projet\Yourtube.
+
+
+
+
+
+index
+1
+contenuController
+2
+contenuModel
+    function
+        connexion bdd
+        commande sql
+        return variable de la commande sql
+3
+contenuController
+    transforme la variable sql en variable content
+    return variable content
+4
+index
+    echo content
